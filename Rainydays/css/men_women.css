@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+}
+
+* {
+    font-family: "Open Sans";
+    flex-wrap: wrap;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.container1 {
+    padding: 32px 144px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.flex a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.flex img {
+    width: 160px;
+}
+
+.link {
+    width: 160px;
+    text-align: center;
+}
+
+.link p {
+    color: rgb(119, 119, 119);
+}
+
+.container2 {
+    background-color: #ffffff;
+    padding: 80px 144px;
+    display: flex;
+    justify-content: center;
+}
+
+.text_box {
+    width: 60%;
+}
+
+.text_box p {
+    padding-top: 16px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.container3 img {
+    width: 80%;
+    padding: 32px;
+}

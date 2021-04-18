@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+}
+
+* {
+    flex-wrap: wrap;
+}
+
+/**/
+
+main {
+    margin: 150px;
+}
+
+main * {
+    display: flex;
+}
+
+.row {
+    justify-content: center;
+}
+
+/*jacket images*/
+
+.flexbox1 {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flexbox2 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    width: 112px;
+    border: 1.5px solid lightgrey;
+    border-radius: 5px;
+    margin: 0px 20px;
+}
+
+.item2 img {
+    border: 1.5px solid lightgrey;
+    border-radius: 5px;
+    width: 352px;
+    margin: 0px 20px;
+}
+
+/* jacket info + cta */
+
+
+.flexbox3 {
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+.fa {
+    padding-top: 5px;
+}
+
+select {
+    width: 117%;
+    border-radius: 5px;
+    border-style: hidden;
+    margin-top: 20px;
+    color: black;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.stock p {
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+
+.delivery_icons {
+    justify-content: space-between;
+}
+
+.delivery_icons p {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 24px;
+}
+
+.delivery_icons img {
+    width: 32px;
+    padding-top: 20px;
+}
+
+.rating {
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-block-start: auto;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 5px;
+    border-style: hidden;
+    padding: 15px 30px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #0C233E;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+/*product info*/
+
+.product_info {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 60%;
+}
+
+h3 {
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.box p {
+    padding-bottom: 20px;
+}
+
+
+.user_reviews p {
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+.checked {
+    color: rgb(248, 174, 78);
+}
+
+

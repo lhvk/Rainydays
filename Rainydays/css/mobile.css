@@ -1,0 +1,137 @@
+    /* Mobile */
+
+  @media only screen and (max-width: 800px) {
+    
+    /* navigation */
+
+    .nav-area ul li { 
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    /* homepage */
+
+    .logo img {
+        margin-top: 70px;
+        width: 300px;
+    }
+
+    main {
+        min-height: 68vh;
+    }
+
+    /* mens & womens page */
+
+    .container2 {
+        padding: 0px;
+    }
+
+    .text_box {
+        width: 80%;
+    }
+
+    .container3 img {
+        width: 100%;
+        padding: 0px;
+        padding-top: 32px;
+    }
+
+    /* jacket specific page*/
+
+    .jacket_page main, .product_info {
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .flexbox1 {
+        flex-direction: row;
+        order: 2;
+        flex-wrap: nowrap;
+    }
+
+    .flexbox2 {
+        order: 1;
+    }
+
+    .flexbox2 img {
+        border-radius: 5%;
+        border: 1.5px solid lightgrey;
+        margin: 20px;
+    }
+
+    .flexbox3 {
+        order: 3;
+        text-align: left;
+        align-content: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .rating {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .delivery_icons img {
+        max-height: 25px;
+        width: auto;
+    }
+
+    .product_info {
+        max-width: 100%;
+        background: white;
+        padding: 30px;
+    }
+
+    /* contact page */
+
+    .wrapper {
+        margin: 50px;
+    }
+
+    .contact-info img {
+        margin-top: 20px;
+    }
+
+    .contact-images img {
+        width: 25px;
+    }
+
+    /* about page */
+
+    .nav-area_about { 
+        flex-direction: column; 
+    }
+    
+    .nav-area_about ul {
+        margin-top: 50px;
+    }
+
+    .nav-area_about ul li {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .background_about main {
+        flex-direction: column;
+        max-width: 100%;
+        padding: 0px;
+        justify-content: space-evenly
+    }
+
+    .textbox {
+        background: rgba(255, 255, 255, 0.85);
+        justify-content: space-between;
+        margin: 0px 25px;
+        padding: 25px;
+    }
+
+    /* effects */
+
+    .nav-area_about ul li::after {
+        background: none;
+    }
+}
